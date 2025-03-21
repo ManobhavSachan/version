@@ -9,6 +9,27 @@ This project provides real-time system information monitoring through osquery in
 - A modern React frontend for data visualization
 - MariaDB for persistent storage
 
+## Screenshots
+
+<div align="center">
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 20px;">
+    <img src="docs/screenshots/dashboard.png" alt="Dashboard View" width="400"/>
+    <img src="docs/screenshots/api.png" alt="API Response" width="400"/>
+    <img src="docs/screenshots/latest.png" alt="Latest Data" width="400"/>
+    <img src="docs/screenshots/status.png" alt="Status API Response" width="400"/>
+    <img src="docs/screenshots/health.png" alt="Health API Response" width="400"/>
+    <img src="docs/screenshots/database.png" alt="Database" width="400"/>
+  </div>
+</div>
+
+Each screenshot shows a key feature of the application:
+- **Dashboard View**: Main interface showing system overview
+- **API Response**: API response for the latest data
+- **Latest Data**: Latest data from the database
+- **Status API Response**: Status API response
+- **Health API Response**: Health check API response
+- **Database**: Database schema
+
 ## System Design
 
 ### Architecture
